@@ -52,10 +52,8 @@ events.json
 {
     "text": "write an article about amazon bedrock"
 }
-
-
-
 ```
+
 Next, invoke the lambda function through the **AWS CLI**:  
 ```console
 aws lambda invoke --region us-east-1 --function-name bedrock_function --cli-binary-format raw-in-base64-out --payload file://events.json response.json
