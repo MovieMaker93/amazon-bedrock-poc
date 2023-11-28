@@ -12,7 +12,7 @@ Before jumping down in the PoC, you need to activate the Foundation Model on you
 Amazon Bedrock offers plenty of FMs to get started for your desired output.  
 For the sake of this Demo, I choose the <b>AI21 Labs Jurassic-2 Mid </b> that accepts a prompt and generates text.  
 The activation of the model is not granted by default.  
-Follow along with this [guide](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html) for access to your AWS account.  
+Follow along with this [guide](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html) for enabling the model access to your AWS account.  
 
 > [!WARNING]
 > Remember to prompt the **FM** as little as you can. The length of the response determines the amount of your bills.
