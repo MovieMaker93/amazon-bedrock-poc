@@ -12,10 +12,7 @@ def lambda_handler(event, context):
   print(event['text'])
 
 
-  prompt = """
-  Write a medium blog post on how to use
-  Amazon Bedrock to write an article on how to use Amazon Bedrock.
-  """
+  prompt="{}".format(event['text'])
 
   body = json.dumps({
       "prompt": prompt,
@@ -26,7 +23,7 @@ def lambda_handler(event, context):
       "countPenalty": {"scale":0},
       "presencePenalty": {"scale":0},
       "frequencyPenalty": {"scale":0}
-  })
+      })
 
   modelId = 'ai21.j2-mid-v1'
   accept = 'application/json'
