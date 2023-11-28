@@ -26,11 +26,10 @@ Follow along with this [https://docs.aws.amazon.com/bedrock/latest/userguide/mod
 - `AWS CLI installed`  
 
 ## Instructions
-First of all, we need to init our terraform:
+First of all, go to the root of the repo and init your terraform:
 ```console
 terraform init
 ```
-
 
 After that:
 ```console
@@ -42,7 +41,6 @@ And finally,
 ```console
 terraform apply
 ```
-
 
 Now, you will have your lambda function and IAM role to prompt the Amazon Bedrock.
 Let's prompt our FM with a text. For the options of the body request, check [https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-jurassic2.html](here).
