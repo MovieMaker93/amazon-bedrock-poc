@@ -32,7 +32,7 @@ terraform init
 ```console
 terraform plan
 ```
-This provides a preview of the resources to be deployed.
+This provides a preview of the resources to be deployed.    
 3. Apply the Terraform configuration:
 ```console
 terraform apply
