@@ -42,8 +42,8 @@ And finally,
 terraform apply
 ```
 
-Now, you will have your lambda function and IAM role to prompt the Amazon Bedrock.
-Let's prompt our FM with a text. For the options of the body request, check [here](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-jurassic2.html).
+Now, you will have your lambda function and IAM role to prompt the Amazon Bedrock.  
+Let's prompt our FM with a text. For the options of the body request, check [here](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-jurassic2.html).  
 
 The prompt of the request to pass to the AWS lambda function is stored in **events.json** file:
 
