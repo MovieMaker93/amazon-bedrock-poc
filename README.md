@@ -1,6 +1,6 @@
 # Amazon Bedrock PoC
 ## Abstract
-From the official Amazon [documentation](https://aws.amazon.com/bedrock/?nc1=h_ls):  
+From the official Amazon [documentation](https://aws.amazon.com/bedrock/?nc1=h_ls):   
 Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models (FMs) with a single API.  
 This simplicity ensures the smoothest development experience while maintaining security.  
 
