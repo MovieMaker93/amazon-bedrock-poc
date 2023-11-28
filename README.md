@@ -1,6 +1,6 @@
 # Amazon Bedrock PoC
 ## Abstract
-From the official Amazon [https://aws.amazon.com/bedrock/?nc1=h_ls](documentation):
+From the official Amazon [documentation](https://aws.amazon.com/bedrock/?nc1=h_ls):
 Amazon Bedrock is a fully managed service that offers a choice of high-performing foundation models (FMs) with a single API.  
 This simplicity ensures the smoothest development experience while maintaining security.  
 
@@ -12,7 +12,7 @@ Before jumping down in the PoC, you need to activate the Foundation Model on you
 Amazon Bedrock offers plenty of FMs to get started for your desired output.  
 For the sake of this Demo, I choose the <b>AI21 Labs Jurassic-2 Mid </b> that accepts a prompt and generates text.  
 The activation of the model is not granted by default.  
-Follow along with this [https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html](guide) for access to your AWS account.  
+Follow along with this [guide](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html) for access to your AWS account.  
 
 > [!WARNING]
 > Remember to prompt the **FM** as little as you can. The length of the response determines the amount of your bills.
@@ -21,7 +21,7 @@ Follow along with this [https://docs.aws.amazon.com/bedrock/latest/userguide/mod
 
 - `pre-commit hook installed`  
 - `terraform`  
-- `Preconfigured AWS cli variables` --> more info [https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html](here)  
+- `Preconfigured AWS cli variables` --> more info [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)  
 - `python version >3.10`  
 - `AWS CLI installed`  
 
@@ -43,7 +43,7 @@ terraform apply
 ```
 
 Now, you will have your lambda function and IAM role to prompt the Amazon Bedrock.
-Let's prompt our FM with a text. For the options of the body request, check [https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-jurassic2.html](here).
+Let's prompt our FM with a text. For the options of the body request, check [here](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-jurassic2.html).
 
 The prompt of the request to pass to the AWS lambda function is stored in **events.json** file:
 
