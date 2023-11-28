@@ -38,6 +38,8 @@ This provides a preview of the resources to be deployed.
 terraform apply
 ```
 This sets up the Lambda function and IAM role for interacting with Amazon Bedrock.    
+
+The AWS lambda function is configured with a basic body request.   
 Each model offers different kinds of parameters to configure. [Check this out](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-jurassic2.html) for a detailed explanation of parameters used in the PoC for the body.  
 
 4. To prompt the FM, use the text stored in the events.json file:
